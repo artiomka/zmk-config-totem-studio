@@ -18,6 +18,18 @@ draw_config:
     }
 parse_config:
   zmk_keycode_map: {}
+  raw_binding_map:
+    "&mmv MOVE_LEFT": {tap: "← Move"}
+    "&mmv MOVE_DOWN": {tap: "↓ Move"}
+    "&mmv MOVE_UP": {tap: "↑ Move"}
+    "&mmv MOVE_RIGHT": {tap: "→ Move"}
+    "&msc SCRL_LEFT": {tap: "← Scroll"}
+    "&msc SCRL_DOWN": {tap: "↓ Scroll"}
+    "&msc SCRL_UP": {tap: "↑ Scroll"}
+    "&msc SCRL_RIGHT": {tap: "→ Scroll"}
+    "&mkp LCLK": {tap: "L Click"}
+    "&mkp RCLK": {tap: "R Click"}
+    "&mkp MCLK": {tap: "M Click"}
   sticky_label: sticky
   toggle_label: toggle
   trans_legend:
