@@ -26,19 +26,19 @@ layers:
   - X
   - C
   - V
-  - B
   - N
   - M
   - COMMA
   - DOT
   - FSLH
-  - Hyper
+  - B
   - {t: ESC, h: MEDIA}
   - {t: SPACE, h: NAV}
   - {t: TAB, h: MOUSE}
   - {t: RET, h: SYM}
   - {t: BSPC, h: NUM}
   - {t: DEL, h: FUN}
+  - Hyper
   NAV:
   - ''
   - ''
@@ -65,19 +65,19 @@ layers:
   - ''
   - ''
   - ''
-  - ''
   - INS
   - HOME
   - PG DN
   - PG UP
   - END
-  - Hyper
+  - ''
   - ''
   - {type: held}
   - ''
   - RET
   - BSPC
   - DEL
+  - Hyper
   NUM:
   - LBKT
   - '7'
@@ -104,19 +104,19 @@ layers:
   - '1'
   - '2'
   - '3'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - BSLH
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - Hyper
   - DOT
   - '0'
   - MINUS
   - ''
   - {type: held}
   - ''
+  - Hyper
   MEDIA:
   - ''
   - ''
@@ -143,19 +143,19 @@ layers:
   - ''
   - ''
   - ''
-  - ''
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
   - {t: BT, h: '3'}
   - BT CLR
-  - Hyper
+  - ''
   - {type: held}
   - ''
   - ''
   - STOP
   - PP
   - MUTE
+  - Hyper
   SYM:
   - LBRC
   - AMPS
@@ -182,19 +182,19 @@ layers:
   - EXCL
   - AT
   - HASH
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - PIPE
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - Hyper
   - LPAR
   - RPAR
   - UNDER
   - {type: held}
   - ''
   - ''
+  - Hyper
   FUN:
   - F12
   - F7
@@ -221,19 +221,19 @@ layers:
   - F1
   - F2
   - F3
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - PAUSE BREAK
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - Hyper
   - APP
   - SPACE
   - TAB
   - ''
   - ''
   - {type: held}
+  - Hyper
   MOUSE:
   - ''
   - ''
@@ -260,19 +260,19 @@ layers:
   - ''
   - ''
   - ''
-  - ''
   - ← Scroll
   - ↓ Scroll
   - ↑ Scroll
   - → Scroll
   - ''
-  - Hyper
+  - ''
   - ''
   - ''
   - {type: held}
   - M Click
   - L Click
   - R Click
+  - Hyper
 combos:
 - p: [13, 16]
   k: '&caps_word'
