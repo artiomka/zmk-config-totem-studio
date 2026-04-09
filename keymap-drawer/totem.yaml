@@ -273,3 +273,32 @@ layers:
   - M Click
   - L Click
   - R Click
+combos:
+- p: [13, 16]
+  k: '&caps_word'
+- p: [1, 2]
+  k: ESC
+- p: [7, 8]
+  k: BSPC
+- p: [8, 9]
+  k: DEL
+- p: [11, 12]
+  k: TAB
+- p: [17, 18]
+  k: RET
+- p: [22, 23]
+  k: Gui+C
+- p: [23, 24]
+  k: Gui+V
+- p: [22, 24]
+  k: Gui+X
+- p: [16, 27]
+  k: MINUS
+- p: [15, 26]
+  k: UNDER
+- p: [13, 24]
+  k: EQUAL
+- p: [11, 22]
+  k: GRAVE
+- p: [18, 19]
+  k: SEMI
