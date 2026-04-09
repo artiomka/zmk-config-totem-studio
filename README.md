@@ -38,7 +38,7 @@ Miryoku-style layout with QWERTY base and vim-style navigation.
 | **MEDIA** | Hold Escape | Home row mods | Media controls, BT profiles |
 | **SYM** | Hold Enter | Symbols ({ & * ( }, : $ % ^ +, ~ ! @ # \|) | Home row mods |
 | **FUN** | Hold Delete | Function keys (F1-F12), PrtSc, ScrLk | Home row mods |
-| **MOUSE** | Hold Tab | Home row mods | Placeholder |
+| **MOUSE** | Hold Tab | Home row mods | Mouse movement, scroll, buttons (L/M/R click) |
 
 ## Home Row Mods (GACS)
 
