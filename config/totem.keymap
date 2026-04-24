@@ -188,10 +188,10 @@
             // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛                           ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-                         &kp Q       &kp W       &kp E          &kp R          &kp T          &kp Y      &kp U            &kp I        &kp O       &kp P
-                         &mt LGUI A  &mt LALT S  &mt LCTRL D    &mt LSHFT F    &kp G          &kp H      &mt RSHFT J      &mt RCTRL K  &mt RALT L  &mt RGUI SQT
-&mt LEFT_CONTROL ESCAPE  &kp Z       &kp X       &kp C          &kp V          &kp B          &kp N      &kp M            &kp COMMA    &kp DOT     &kp SLASH     &lt MEDIA ESC
-                                                 &lt NAV GRAVE  &lt MOUSE TAB  &lt SYM RET    &kp SPACE  &lt 2 BACKSPACE  &hyper
+                         &kp Q       &kp W       &kp E        &kp R          &kp T        &kp Y      &kp U            &kp I        &kp O       &kp P
+                         &mt LGUI A  &mt LALT S  &mt LCTRL D  &mt LSHFT F    &kp G        &kp H      &mt RSHFT J      &mt RCTRL K  &mt RALT L  &mt RGUI SQT
+&mt LEFT_CONTROL ESCAPE  &kp Z       &kp X       &kp C        &kp V          &kp B        &kp N      &kp M            &kp COMMA    &kp DOT     &kp SLASH     &lt MEDIA ESC
+                                                 &lt 4 GRAVE  &lt MOUSE TAB  &lt 1 RET    &kp SPACE  &lt 2 BACKSPACE  &hyper
             >;
         };
 
