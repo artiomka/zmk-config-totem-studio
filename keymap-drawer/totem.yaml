@@ -21,6 +21,7 @@ layers:
   - {t: K, h: RCTRL}
   - {t: L, h: RALT}
   - {t: SQT, h: RGUI}
+  - {t: ESCAPE, h: LEFT CONTROL}
   - Z
   - X
   - C
@@ -30,14 +31,13 @@ layers:
   - M
   - COMMA
   - DOT
-  - FSLH
-  - {t: Esc, h: Ctrl}
+  - SLASH
   - {t: ESC, h: MEDIA}
-  - {t: SPACE, h: NAV}
+  - {t: GRAVE, h: SYM}
   - {t: TAB, h: MOUSE}
-  - {t: RET, h: SYM}
-  - {t: BSPC, h: NUM}
-  - {t: DEL, h: FUN}
+  - {t: RET, h: NAV}
+  - SPACE
+  - {t: BACKSPACE, h: NUM}
   - Hyper
   NAV:
   - ''
@@ -72,9 +72,9 @@ layers:
   - END
   - {t: Esc, h: Ctrl}
   - ''
-  - {type: held}
   - ''
-  - RET
+  - ''
+  - {t: RET, type: held}
   - BSPC
   - DEL
   - Hyper
@@ -114,8 +114,8 @@ layers:
   - '0'
   - MINUS
   - ''
-  - {type: held}
   - ''
+  - {type: held}
   - Hyper
   MEDIA:
   - ''
@@ -189,9 +189,9 @@ layers:
   - ''
   - {t: Esc, h: Ctrl}
   - LPAR
-  - RPAR
+  - {t: RPAR, type: held}
   - UNDER
-  - {type: held}
+  - ''
   - ''
   - ''
   - Hyper
@@ -232,7 +232,7 @@ layers:
   - TAB
   - ''
   - ''
-  - {type: held}
+  - ''
   - Hyper
   MOUSE:
   - ''
