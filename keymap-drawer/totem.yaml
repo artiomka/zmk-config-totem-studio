@@ -32,7 +32,7 @@ layers:
   - COMMA
   - DOT
   - SLASH
-  - {t: ESC, h: MEDIA}
+  - PAGE DOWN
   - {t: GRAVE, h: SYM}
   - {t: TAB, h: MOUSE}
   - {t: RET, h: NAV}
@@ -149,7 +149,7 @@ layers:
   - {t: BT, h: '3'}
   - BT CLR
   - {t: Esc, h: Ctrl}
-  - {type: held}
+  - ''
   - ''
   - ''
   - STOP
